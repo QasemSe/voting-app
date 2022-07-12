@@ -37,16 +37,19 @@
                     <button class="w20 bg-gray-200 border border-gray-200 font-bold hover:border-gray-400 text-xxs uppercase rounded-xl px-4 py-3 transition duration-150 ease-in">Vote</button>
                 </div>
             </div>
-            <div class="flex px-2 py-6">
-                <a href="#" class="flex-none">
-                    <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar" class="w-14 h-14 rounded-xl">
-                </a>
-                <div class="mx-4">
+            <div class="flex flex-1 px-2 py-6">
+                <div class="flex-none">
+                    <a href="#">
+                        <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar" class="w-14 h-14 rounded-xl">
+                    </a>
+                </div>
+
+                <div class="w-full mx-4">
                     <h4 class="text-xl font-semibold">
                         <a href="#" class="hover:underline">A random title can go here</a>
                     </h4>
                     <div class="text-gray-400 mt-3 line-clamp-3">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus atque cupiditate doloremque et exercitationem ipsa nisi numquam omnis soluta, unde, vel velit voluptas? Accusantium commodi ducimus et excepturi facere ipsa, magnam minima nobis pariatur provident quis sint temporibus velit? Autem debitis dolorem, est et laboriosam omnis ratione repudiandae sint.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     </div>
                     <div class="flex items-center justify-between mt-6">
                         <div class="flex items-center text-xs  text-gray-400 font-semibold space-x-2">
@@ -58,7 +61,7 @@
                         </div>
                         <div class="flex items-center space-x-2">
                             <div class="bg-gray-200 text-xxs font-bold uppercase leading-none rounded-full text-center w-28 h-7 py-2 px-4">Open</div>
-                            <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-7 transition duration-150 ease-in py-2 px-3">
+                            <button class="relative bg-gray-100 hover:bg-gray-200 border rounded-full h-7 transition duration-150 ease-in py-2 px-3">
                                 <svg fill="currentColor" width="24" height="7" >
                                     <path d="M2.97.061A2.969 2.969 0 000 3.031 2.968 2.968 0 002.97 6a2.97 2.97 0 100-5.94zm9.184 0a2.97 2.97 0 100 5.939 2.97 2.97 0 100-5.939zm8.877 0a2.97 2.97 0 10-.003 5.94A2.97 2.97 0 0021.03.06z" style="color: rgba(163,163,163,.5)"/>
                                 </svg>
