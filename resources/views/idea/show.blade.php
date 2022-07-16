@@ -1,6 +1,6 @@
 <x-app-layout>
     <div>
-        <a href="" class="flex items-center items-center semibold hover-underline">
+        <a href="/" class="flex items-center items-center semibold hover-underline">
             <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
             </svg>
@@ -17,16 +17,16 @@
 
             <div class="w-full mx-2 md:mx-2">
                 <h4 class="text-xl font-semibold">
-                    <a href="#" class="hover:underline">A random title can go here</a>
+                    <a href="#" class="hover:underline">{{ $idea->title }}</a>
                 </h4>
                 <div class="text-gray-400 mt-3 line-clamp-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    {{ $idea->description }}
                 </div>
                 <div class="flex flex-col md:flex-row md:items-center justify-between mt-6">
                     <div class="flex items-center text-xs  text-gray-400 font-semibold space-x-2">
-                        <div class="hidden md:block font-bold text-gray-900">John Doe</div>
+                        <div class="hidden md:block font-bold text-gray-900">{{ $idea->user->name }}</div>
                         <div class="hidden md:block">&bull;</div>
-                        <div>10 hours ago</div>
+                        <div>{{ $idea->created_at->diffForHumans() }}</div>
                         <div>&bull;</div>
                         <div>Category 1</div>
                         <div>&bull;</div>
